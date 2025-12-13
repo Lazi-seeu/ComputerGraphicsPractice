@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raycasting Cubes</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+      }
+      #ui {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        width: 260px;
+        background: rgba(0, 0, 0, 0.75);
+        color: white;
+        padding: 12px 14px;
+        border-radius: 10px;
+        line-height: 1.4;
+        font-size: 14px;
+      }
+      #ui h3 {
+        margin: 0 0 8px 0;
+        font-size: 16px;
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+          "Courier New", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ui">
+      <h3>Selected Cube</h3>
+      <div id="info">Click a cube to see its information here.</div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
